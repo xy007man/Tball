@@ -10,14 +10,14 @@
 
 * 在手机屏幕中显示出辅助线：利用android的的护眼模式的原理，创建一个透明的图层，覆盖在游戏上，绘制这个透明图层就能看到辅助线
 
-  ![res](微信小游戏桌球辅助器/res.jpg)
+  ![res](https://github.com/xy007man/Tball/blob/main/other/res.jpg)
 
 ## 工程目录结构
 
 * app主要负责屏幕截图、透明图层创建、绘制辅助线（本人不太了解android app开发，所以这部分代码只是勉强能用哈）
 * Billiards_SDK是JNI层，主要是进行瞄准圆环的匹配，确定辅助线坐标
 
-![image-20211017153332240](微信小游戏桌球辅助器/image-20211017153332240.png)
+![image-20211017153332240](https://github.com/xy007man/Tball/blob/main/other/image-20211017153332240.png)
 
 ---
 
